@@ -48,6 +48,7 @@ public class CreateLead {
 		driver.findElement(By.name("submitButton")).click();
 		String Title = driver.getTitle();
 		System.out.println(Title);
+		driver.close();
 		
 	}
 
